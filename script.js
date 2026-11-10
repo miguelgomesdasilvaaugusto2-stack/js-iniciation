@@ -50,8 +50,9 @@ let primeiroNome, nomeDoMeio, sobrenome;
 primeiroNome = 'Fileblinga';
 nomeDoMeio = 'Jairson';
 sobrenome = 'Oliveira';
+nomeCompleto = primeiroNome + " " + nomeDoMeio + " " + sobrenome;
 
-console.log(primeiroNome, nomeDoMeio, sobrenome);
+console.log(nomeCompleto);
 
 
 
